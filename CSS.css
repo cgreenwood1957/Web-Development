@@ -49,14 +49,33 @@ body {
   padding:10px;
   width:100%;
   border-style: groove;
-  background-color: lightslategrey; 
+  background-color: #999999; 
   text-align: center;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-style: groove;
+}
+
+.Column2 {
+  float: left;
+  background-color: #b3b3b3;
+  color: black; 
+  width:50%; 
 }
 
 @media screen and (max-width: 600px) {
   .Column {
     width: 100%;
     text-align: top left ;
+  }
+
+  .Column2 {
+    width: 100%;
+    text-align: top left;
   }
 }
 
@@ -111,4 +130,132 @@ li.dropdown {
   display: block;
 }
 
+.MoreInfoColumn {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: left;
+}
 
+.MoreInfoColumn2 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 10%;
+  width: 50%;
+  border-style: groove;
+  text-align: left;
+}
+
+.inforow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ronnieColumn {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.ronnieColumn2 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 10%;
+  width: 50%;
+  border-style: groove;
+  text-align: center;
+}
+
+.ronnierow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.oliverColumn {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.oliverColumn2 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 10%;
+  width: 50%;
+  border-style: groove;
+  text-align: center;
+}
+
+.oliverrow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tylerjoshColumn {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.tylerjoshColumn2 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 10%;
+  width: 50%;
+  border-style: groove;
+  text-align: center;
+}
+
+.tylerjoshrow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.charlieColumn {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.charlieColumn2 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 10%;
+  width: 50%;
+  border-style: groove;
+  text-align: center;
+}
+
+.charlierow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
