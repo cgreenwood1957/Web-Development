@@ -6,14 +6,15 @@
   }
   
   .Header{
-    background-color: #6b6c6e;
+    background-color: #4d0353;
     text-align: center;
     text-decoration: underline;
     padding: 30px;
+    color:rgb(255, 255, 255);
   }
   
   .Box {
-    background-color: #6b6c6e;
+    background-color: #4d0353;
     color:white;
     padding: 5px;
     text-align: center;
@@ -21,9 +22,9 @@
   
   .Navbar {
     
-      border-style: rgb(59, 252, 0);
+      border-style: rgb(255, 0, 170);
       overflow: hidden;
-      background-color: #0b54e6;
+      background-color: #3310f7;
       text-align: center;
       height: 50px;
       
@@ -32,15 +33,15 @@
   .Navbar a{
       float: left;
       display: block;
-      color: #f2f2f2;
+      color: #2f00ff;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
   }
   
   .Navbar a:hover {
-      background-color: rgb(241, 16, 16);
-      color:black;
+      background-color: rgb(0, 38, 255);
+      color:rgba(131, 0, 148, 0.822);
       height: 50px;
   }
   
@@ -49,7 +50,7 @@
     padding:10px;
     width:100%;
     border-style: groove;
-    background-color: #999999; 
+    background-color: #a903caa4; 
     text-align: center;
   }
   
@@ -62,7 +63,7 @@
   
   .Column2 {
     float: left;
-    background-color: #b3b3b3;
+    background-color: #e100ffd2;
     color: black; 
     width:50%; 
   }
@@ -84,7 +85,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(143, 5, 170, 0.966);
   }
   
   li {
@@ -110,22 +111,171 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #85018a;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown-content a:hover {background-color: #ff00c8e1;}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  
+.DominoesColumn1 {
+  float: left;
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 63, 100);
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.DominoesColumn2 {
+  float: left;
+  color: rgb(255, 255, 255);
+  background-color: rgb(5, 95, 151);
+  padding: 5px;
+  width: 50%;
+  height: 30%;
+  border-style: groove;
+  text-align: left;
+}
+
+.DominoesColumn3 {
+  float: left;
+  color: black;
+  background-color:rgb(6, 150, 240);
+  padding: 5px;
+  width: 100%;
+  height: 60%;
+  text-align: center;
+}
+
+.DominoesRow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.SubwayColumn1 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.SubwayColumn2 {
+  float: left;
+  color: black;
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 50%;
+  height: 30%;
+  border-style: groove;
+  text-align: left;
+}
+
+.SubwayColumn3 {
+  float: left;
+  color: black;
+  background-color:white;
+  padding: 5px;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.SubwayRow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.MaccysColumn1 {
+  float: left;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.MaccysColumn2 {
+  float: left;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 157, 255);
+  padding: 5px;
+  width: 50%;
+  height: 30%;
+  border-style: groove;
+  text-align: left;
+}
+
+.MaccysColumn3 {
+  float: left;
+  color: black;
+  background-color:rgb(0, 0, 0);
+  padding: 5px;
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+
+.MaccysRow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.KFCColumn1 {
+  float: left;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  width: 100%;
+  border-style: groove;
+  text-align: center;
+}
+
+.KFCColumn2 {
+  float: left;
+  color: black;
+  background-color: rgb(255, 0, 0);
+  padding: 5px;
+  width: 50%;
+  height: 30%;
+  border-style: groove;
+  text-align: left;
+}
+
+.KFCColumn3 {
+  float: left;
+  color: black;
+  background-color:white;
+  padding: 5px;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.KFCRow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
